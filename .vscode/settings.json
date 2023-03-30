@@ -1,0 +1,4 @@
+{
+    "prettier.requirePragma": false,
+    "editor.formatOnType": false
+}

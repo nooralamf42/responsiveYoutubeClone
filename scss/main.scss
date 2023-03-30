@@ -1,0 +1,73 @@
+$danger: #f0f0f0;
+$border-radius:50rem;
+$h6-font-size: 10px;
+
+.hallo{
+    margin-top: -50px;
+}
+.img-thumbnail{
+    width: 50px;
+} 
+ 
+.channel-img{
+width: 50px;
+border-radius: 50%;
+margin-right: 5px;
+}
+
+.video-container{
+    margin-top: 120px;
+    padding-left: 70px !important;
+}
+
+.suggestions{
+    margin-left: 60px !important;
+}
+
+.input-width{
+    width: 55vw !important;
+}
+
+.hidden-icons{
+    display: none;
+}
+
+.hidden-btn{
+    border: none;
+    background-color: white;
+    padding-right: 5px;
+}
+
+.gap-fix{
+    margin-right: -45px;
+}
+
+@media (max-width:790px) {
+    .side-nav{
+        display: none !important;
+    }
+    .video-container{
+        padding: 20px !important;
+    }
+    .suggestions{
+        margin-left: 15px !important;
+    }
+}
+
+@media (max-width:655px) {
+    .input-class{
+        display: none;
+    }
+    .hidden-icons{
+        display: flex;
+    }
+}
+
+
+@media (min-width:1350px) {
+    .input-width{
+        width: 35vw !important;
+    }
+}
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
